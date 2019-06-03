@@ -1,24 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="110b60b7-7f20-4ea6-bb11-5a93e49a75ad" name="Default Changelist" comment="basic认证,动态绑定">
+    <list default="true" id="110b60b7-7f20-4ea6-bb11-5a93e49a75ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jersey/config/JerseyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jersey/config/JerseyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jersey/provider/CompressionDynamicBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jersey/provider/CompressionDynamicBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jersey/provider/ConfigConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jersey/provider/ConfigConst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jersey/provider/MyBeanMessageBodyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jersey/provider/MyBeanMessageBodyReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jersey/provider/MyBeanMessageBodyWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jersey/provider/MyBeanMessageBodyWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jersey/provider/filter/AuthRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jersey/provider/filter/AuthRequestFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jersey/provider/filter/MyResponseFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jersey/provider/filter/MyResponseFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jersey/provider/interceptor/GZIPReaderInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jersey/provider/interceptor/GZIPReaderInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jersey/provider/interceptor/GZIPWriterInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jersey/provider/interceptor/GZIPWriterInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/config/JerseyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jersey/config/JerseyConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/provider/ConfigConst.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jersey/provider/ConfigConst.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/provider/filter/AuthRequestFilter$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jersey/provider/filter/AuthRequestFilter$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/provider/filter/AuthRequestFilter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jersey/provider/filter/AuthRequestFilter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/provider/filter/AuthRequestFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jersey/provider/filter/AuthRequestFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/springboot-jersey.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/config/JerseyConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/entity/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/entity/MyBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/exception/CustomNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/provider/Compress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/provider/CompressionDynamicBinding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/provider/ConfigConst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/provider/MyBeanMessageBodyReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/provider/MyBeanMessageBodyWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/provider/ProviderPriority.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/provider/filter/AuthRequestFilter$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/provider/filter/AuthRequestFilter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/provider/filter/AuthRequestFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/provider/filter/MyResponseFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/provider/interceptor/GZIPReaderInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/provider/interceptor/GZIPWriterInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/resource/AnnotatedResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/resource/BeanResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/resource/DepartmentResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/resource/DownloadResource$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/resource/DownloadResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/resource/FormResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/resource/GreetMatchResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/resource/HelloResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/resource/ImageResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/resource/SpringbootResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/resource/SubHelloResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/resource/UploadResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/resource/WorkersResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/resource/XmlResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/service/ISomeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jersey/service/SomeServiceImpl.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,31 +51,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/resource/FormResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/resource/GreetMatchResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/resource/HelloResource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/provider/filter/MyResponseFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,12 +104,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/resource/UploadResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="864">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
               <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/provider/filter/AuthRequestFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -194,13 +218,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jersey/provider/ConfigConst.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jersey/config/JerseyConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jersey/provider/filter/AuthRequestFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jersey/provider/filter/MyResponseFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jersey/provider/interceptor/GZIPReaderInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jersey/provider/interceptor/GZIPWriterInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jersey/provider/CompressionDynamicBinding.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jersey/provider/MyBeanMessageBodyReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jersey/provider/MyBeanMessageBodyWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jersey/provider/filter/AuthRequestFilter.java" />
       </list>
     </option>
   </component>
@@ -222,13 +246,18 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="example" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -471,18 +500,25 @@
       <workItem from="1559200850593" duration="14019000" />
       <workItem from="1559264957658" duration="4281000" />
       <workItem from="1559357426527" duration="7194000" />
-      <workItem from="1559524559282" duration="8762000" />
+      <workItem from="1559524559282" duration="9503000" />
     </task>
+    <task id="LOCAL-00001" summary="basic认证,权限动态绑定">
+      <created>1559542528529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559542528529</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51921000" />
+    <option name="totallyTimeSpent" value="52662000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -492,15 +528,15 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32934782" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.37826088" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32934782" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37826088" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="JRebel remote servers log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32934782" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -510,7 +546,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.2563966" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.2563966" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Remote Host" order="6" />
@@ -522,6 +558,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="basic认证,权限动态绑定" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic认证,权限动态绑定" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -742,27 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/provider/filter/AuthRequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/provider/filter/MyResponseFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/provider/interceptor/GZIPReaderInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -871,30 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/resource/FormResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/resource/GreetMatchResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/resource/HelloResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/resource/ImageResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -945,9 +940,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/resource/UploadResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="864">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
           <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/resource/GreetMatchResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/resource/FormResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/resource/HelloResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/provider/filter/MyResponseFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jersey/provider/filter/AuthRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
