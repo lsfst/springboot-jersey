@@ -14,6 +14,8 @@ package com.jersey.provider.filter;
 import org.glassfish.jersey.internal.util.Base64;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.Priority;
 import javax.servlet.ServletConfig;
@@ -26,20 +28,24 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
-import javax.ws.rs.ext.Provider;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.security.Principal;
 
 /**
  * Restful服务是无状态的，但我们需要保证请求的安全性，所以需要对接口权限进行限制
+ * 这里暂且使用最简单的basic认证
+ *
+ * 全局注册：对所有接口进行权限验证
+ * 动态名称绑定：可以使用NameBinding将需要进行认证的接口与filter绑定起来
  */
 
 //@Provider
+//@Component
 @Priority( Priorities.AUTHENTICATION)
 public class AuthRequestFilter implements ContainerRequestFilter {
 
-    private Logger logger = LoggerFactory.getLogger(ContainerRequestFilter.class);
+//    private Logger logger = LoggerFactory.getLogger(ContainerRequestFilter.class);
 
     @Context
     HttpServletRequest webRequest;
@@ -50,20 +56,22 @@ public class AuthRequestFilter implements ContainerRequestFilter {
     @Context
     ServletContext servletContext;
 
+    @Value( "${jersey.user.basic-auth}" )
+    private String USER_AUTH;
+
     @Override
     public void filter( ContainerRequestContext requestContext ) throws IOException {
 
-        logger.info( "=====basic auth=====" );
+//        logger.info( "=====basic auth=====" );
         final Charset CHARACTER_SET = Charset.forName("utf-8");
 
         String authHeader = requestContext.getHeaders().getFirst(HttpHeaders.AUTHORIZATION);
         if (authHeader != null && authHeader.startsWith("Basic")) {
             String decoded = new String( Base64.decode(authHeader.substring(6).getBytes()), CHARACTER_SET);
-//                  String decoded = Base64.decodeAsString(authHeader.substring(6));
             final String[] split = decoded.split(":");
             final String username = split[0];
-            final String pwd = split[1];
-            if (pwd.equals(pwd)) {//这里做了最大简化
+//            final String pwd = split[1];
+            if (decoded.equals(USER_AUTH)) {//这里做了最大简化
                 requestContext.setSecurityContext(new SecurityContext() {
                     @Override
                     public Principal getUserPrincipal() {

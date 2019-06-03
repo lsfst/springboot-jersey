@@ -83,8 +83,8 @@ public class JerseyConfig extends ResourceConfig {
 
         // 自定义request/response过滤器/拦截器
         register( MyBeanMessageBodyWriter.class )
-                .register( MyBeanMessageBodyReader.class )
-                .register( AuthRequestFilter.class );
+                .register( MyBeanMessageBodyReader.class );
+//                .register( AuthRequestFilter.class );
 
         //NameBind动态绑定
         register( CompressionDynamicBinding.class );

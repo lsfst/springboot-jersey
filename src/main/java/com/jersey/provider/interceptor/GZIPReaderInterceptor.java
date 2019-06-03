@@ -28,7 +28,7 @@ import java.util.zip.GZIPInputStream;
  * 优先级设置
  */
 @Compress
-@Component
+//@Component
 @Priority( ProviderPriority.ZIP_READER )
 public class GZIPReaderInterceptor implements ReaderInterceptor {
 
@@ -36,7 +36,7 @@ public class GZIPReaderInterceptor implements ReaderInterceptor {
     public Object aroundReadFrom( ReaderInterceptorContext context )
             throws IOException, WebApplicationException {
 
-        System.out.println( "====GZIPReaderInterceptor====" );
+//        System.out.println( "====GZIPReaderInterceptor====" );
 
         final InputStream originalInputStream = context.getInputStream();
         context.setInputStream( new GZIPInputStream( originalInputStream ) );

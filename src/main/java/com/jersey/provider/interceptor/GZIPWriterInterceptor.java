@@ -31,7 +31,7 @@ public class GZIPWriterInterceptor implements WriterInterceptor {
     public void aroundWriteTo( WriterInterceptorContext context )
             throws IOException, WebApplicationException {
 
-        System.out.println( "=====GZIPWriterInterceptor====" );
+//        System.out.println( "=====GZIPWriterInterceptor====" );
 
         final OutputStream outputStream = context.getOutputStream();
         context.setOutputStream( new GZIPOutputStream( outputStream ) );

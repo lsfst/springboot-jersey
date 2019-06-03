@@ -55,7 +55,7 @@ public class MyBeanMessageBodyWriter implements MessageBodyWriter< MyBean > {
                          OutputStream entityStream )
             throws IOException, WebApplicationException {
 
-        System.out.println( "====MyBeanMessageBodyWriter====" );
+//        System.out.println( "====MyBeanMessageBodyWriter====" );
 
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance( MyBean.class );

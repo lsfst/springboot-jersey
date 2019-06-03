@@ -46,7 +46,7 @@ public class MyBeanMessageBodyReader
                             InputStream entityStream )
             throws IOException, WebApplicationException {
 
-        System.out.println( "====MyBeanMessageBodyReader====" );
+//        System.out.println( "====MyBeanMessageBodyReader====" );
 
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance( MyBean.class );

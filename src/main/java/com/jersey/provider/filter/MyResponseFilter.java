@@ -11,8 +11,6 @@
  */
 package com.jersey.provider.filter;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
 
 import javax.ws.rs.container.ContainerRequestContext;
@@ -22,12 +20,12 @@ import javax.ws.rs.ext.Provider;
 import java.io.IOException;
 
 /**
- * @Provider提供给Jersey自动发现 //实际测试并没有效果，待继续验证，只能在JerseyConfig显式注册
- * @Component让该Filter交给Spring容器管理
+ * @Provider提供给Jersey自动发现 //实测并无效果，待继续验证，只能在JerseyConfig手动注册
+ * @Component让该Filter交给Spring容器管理  //当然如果不是需要复用也无需注册到spring
  *
  */
 @Provider
-@Component
+//@Component
 public class MyResponseFilter implements ContainerResponseFilter {
 
 //    @Autowired
@@ -37,7 +35,7 @@ public class MyResponseFilter implements ContainerResponseFilter {
     public void filter(ContainerRequestContext requestContext,
                        ContainerResponseContext responseContext) throws IOException {
 
-        System.out.println("===my response filter ===");
+//        System.out.println("===my response filter ===");
 //        System.out.println(this);
 //        System.out.println(ctx.getBeansOfType(MyResponseFilter.class));
     }

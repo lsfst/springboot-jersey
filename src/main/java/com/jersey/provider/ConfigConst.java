@@ -11,9 +11,18 @@
  */
 package com.jersey.provider;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
 /**
  *
  */
+@Component
 public class ConfigConst {
-    public static String RESOURCE_PATH = "/opt/jersey/data";
+    public static String RESOURCE_PATH ;
+
+    @Value( "${upload.temp.dir}" )
+    private void setResourcePath(String path){
+        this.RESOURCE_PATH = path;
+    }
 }
