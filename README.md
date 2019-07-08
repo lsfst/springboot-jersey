@@ -1,2 +1,2 @@
 # springboot-jersey
-springboot+jersey restful service 
+springboot+jersey restful服务实践 
